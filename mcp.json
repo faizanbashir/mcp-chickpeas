@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+      "Shell": {
+        "command": "/usr/local/bin/python3",
+        "args": ["/Users/faizanbashir/AI/gemini/mcp/chickpeas/shell/server.py"]
+      },
+      "Stars": {
+        "command": "/usr/local/bin/python3",
+        "args": ["/Users/faizanbashir/AI/gemini/mcp/chickpeas/stars/server.py"]
+      }
+    }
+  }

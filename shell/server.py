@@ -45,23 +45,5 @@ async def run_command(command: str) -> Dict[str, Any]:
             "return_code": -1
         }
 
-@mcp.resource("file:///mcpreadme")
-async def mcpreadme() -> str:
-    """
-    Expose mcpreadme.md from the user's Desktop directory
-    
-    Returns:
-        The contents of mcpreadme.md as a string
-    """
-    desktop_path = Path.home() / "Desktop"
-    readme_path = desktop_path / "mcpreadme.md"
-    
-    try:
-        with open(readme_path, "r") as file:
-            content = file.read()
-        return content
-    except Exception as e:
-        return f"Error reading mcpreadme.md: {str(e)}"
-
 if __name__ == "__main__":
     mcp.run("stdio")
