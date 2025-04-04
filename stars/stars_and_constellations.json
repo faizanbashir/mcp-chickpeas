@@ -1,0 +1,42 @@
+{
+    "stars": [
+        {
+            "name": "Sirius",
+            "constellation": "Canis Major",
+            "distance": "8.6 light years",
+            "magnitude": -1.46
+        },
+        {
+            "name": "Vega",
+            "constellation": "Lyra",
+            "distance": "25 light years",
+            "magnitude": 0.03
+        },
+        {
+            "name": "Betelgeuse",
+            "constellation": "Orion",
+            "distance": "642.5 light years",
+            "magnitude": 0.42
+        }
+    ],
+    "constellations": [
+        {
+            "name": "Orion",
+            "type": "Celestial Hunter",
+            "visible_season": "Winter",
+            "notable_stars": ["Betelgeuse", "Rigel", "Bellatrix"]
+        },
+        {
+            "name": "Ursa Major",
+            "type": "Great Bear",
+            "visible_season": "Year-round",
+            "notable_stars": ["Dubhe", "Merak", "Alkaid"]
+        },
+        {
+            "name": "Lyra",
+            "type": "Lyre",
+            "visible_season": "Summer",
+            "notable_stars": ["Vega", "Sheliak", "Sulafat"]
+        }
+    ]
+} 
