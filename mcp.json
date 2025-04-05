@@ -1,12 +1,27 @@
 {
     "mcpServers": {
+      "Gemini": {
+        "command": "/usr/local/bin/python3",
+        "args": ["/Users/faizanbashir/AI/gemini/mcp/chickpeas/gemini/server.py"],
+        "env": {
+          "GEMINI_API_KEY": "<YOUR_GEMINI_API_KEY>"
+        }
+      },
       "Shell": {
         "command": "/usr/local/bin/python3",
-        "args": ["/Users/faizanbashir/AI/gemini/mcp/chickpeas/shell/server.py"]
+        "args": ["/Users/faizanbashir/AI/mcp/chickpeas/shell/server.py"]
       },
       "Stars": {
         "command": "/usr/local/bin/python3",
-        "args": ["/Users/faizanbashir/AI/gemini/mcp/chickpeas/stars/server.py"]
+        "args": ["/Users/faizanbashir/AI/mcp/chickpeas/stars/server.py"]
+      },
+      "Precious Metals": {
+        "command": "/usr/local/bin/python3",
+        "args": ["/Users/faizanbashir/AI/mcp/chickpeas/precious-metals/server.py"]
+      },
+      "Star Wars": {
+        "command": "/usr/local/bin/python3",
+        "args": ["/Users/faizanbashir/AI/mcp/chickpeas/starwars/server.py"]
       }
     }
   }
